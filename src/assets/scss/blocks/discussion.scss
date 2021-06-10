@@ -1,0 +1,29 @@
+.discussion{
+    margin-top: calc(100*0.007rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+    a{
+        border: 0.007rem solid #000;
+        padding: calc(30*0.007rem);
+        font-size: calc(64*0.007rem);
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        transition: all .1s linear;
+
+        &:hover{
+            background: no-repeat center url("/assets/images/Rectangle\ 46.jpg");
+            background-size: cover;
+            color: #fff;
+            border-color: transparent;
+        }
+    }
+
+    margin-bottom: calc(200*0.007rem);
+}

@@ -1,0 +1,236 @@
+.header{
+    margin: 0 auto;
+    padding: 0.63rem 20% 0rem;
+    height: 7.56rem;
+
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+
+    &--1{
+        background: url("/assets/images/zydex/image\ 3.jpg");
+    }
+
+     &--2, &--3, &--4, &--5{
+        height: 7.5;
+        color: #fff;
+    }
+
+    &--2{
+        background: url("/assets/images/carbag/Портфолио.jpg");
+    }
+
+    &--3{
+        background: url("/assets/images/sushi/image\ 3.jpg");
+    }
+
+    &--4{
+        background: url("/assets/images/home/image\ 3.jpg");
+    }
+
+    &--5{
+        background: url("/assets/images/decolte/image\ 3.jpg");
+    }
+
+    &--6{
+        background: url("/assets/images/sideral/image\ 3.jpg");
+    }
+
+    &--why{
+        position: relative;
+        background: url("/assets/images/whywe/ШАПКА.jpg");
+    }
+}
+
+.header__top{
+    margin-bottom: 0.21rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left{
+    display: flex;
+
+    img{
+        margin-right: 0.07rem;
+    }
+}
+
+.header__left2{
+    width: calc(250*0.007rem);
+}
+
+.header__left2-nav{
+    transform: translateY(calc(-45*0.007rem));
+}
+
+.header__logo{
+    display: flex;
+
+    img{
+        height: calc(40*0.007rem);
+    }
+}
+
+.header__right{
+    padding-top: 0.07rem;
+    justify-content: right;
+}
+
+.header__right2{
+    margin-left: calc(150*0.007rem);
+}
+
+.white{
+    color: #fff;
+}
+
+.header__main{
+    position: relative;
+}
+
+.header__main2{
+    padding-top: calc(250*0.007rem);
+    padding-bottom: calc(100*0.007rem);
+    display: flex;
+}
+
+.header__number{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: calc(10 * 0.007rem);
+}
+
+.header__number2{
+    font-size: calc(48*0.007rem);
+    padding-bottom: calc(40*0.007rem);
+}
+
+.header__name{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    float: right;
+
+    padding-top: calc(200*0.007rem);
+    margin-bottom: calc(100*0.007rem);
+    float: right;
+    
+    &--mb{
+        margin-bottom: calc(30*0.007rem) !important;
+    }
+}
+
+.header__name1{
+    font-size: calc(80*0.007rem);
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: calc(1060*0.007rem);
+
+    &--1{
+        position: relative;
+
+        &:after, &:before{
+            content: "";
+            height: 0.035rem;
+            width: 0.56rem;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    
+        &:before{
+            right: calc(80 * 0.007rem);
+            background-color: #fff;
+        }
+    
+        &:after{
+            right: calc(-80 * 0.007rem + 0.56rem);
+            background-color: #000;
+        }
+    }
+}
+
+.header__description{
+    line-height: 1.3;
+    font-size: 0.168rem;
+
+    padding-left: 50%;
+
+    b{
+        font-weight: 400;
+    }
+
+    &--pl0{
+        padding-left: 0;
+        padding-top: calc(35*0.007rem);
+        line-height: 1.7;
+    }
+}
+
+.header__back{
+    margin-top: 0.35rem;
+    font-weight: 600;
+    font-size: 0.147rem;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+
+    &:after, &:before{
+        content: "";
+        height: 0.035rem;
+        width: 0.56rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &:before{
+        background-color: #D0D0D0;
+        left: 0.63rem;
+    }
+
+    &:after{
+        left: calc(0.63rem + 0.56rem);
+        background-color: #000;
+    }
+
+    span{
+        float: right;
+    }
+
+    &--carb{
+        color: #fff;
+
+        &:before{
+            background-color: #fff;
+        }
+    }
+}
+
+.give__application{
+    // width: calc(7rem);
+    padding: calc(80*.007rem) calc(270*0.007rem);
+
+    position: absolute;
+    right: 0;
+    bottom: calc(250*0.007rem);
+    z-index: 1000;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    font-weight: normal;
+    font-size: calx(24*0.007rem);
+
+    letter-spacing: 0.94em;
+    text-transform: uppercase;
+
+    color: #000;
+}

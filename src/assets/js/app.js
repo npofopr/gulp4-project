@@ -1,0 +1,1 @@
+gulp.task('clean', function(){ return del('jqueryt/**', {force:true}); });

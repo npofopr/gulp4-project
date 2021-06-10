@@ -1,0 +1,20 @@
+.give__application{
+    // width: calc(7rem);
+    padding: calc(80*.007rem) calc(270*0.007rem);
+
+    position: absolute;
+    right: 0;
+    bottom: calc(250*0.007rem);
+    z-index: 1000;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    font-weight: normal;
+    font-size: calx(24*0.007rem);
+
+    letter-spacing: 0.94em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
