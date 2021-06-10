@@ -1,13 +1,3 @@
-var jquery = require('gulp-jquery');
-gulp.task('jquery', function () {
-    return gulp.src('./node_modules/jquery/src')
-        .pipe(jquery({
-            flags: ['-deprecated', '-event/alias', '-ajax/script', '-ajax/jsonp', '-exports/global']
-        }))
-        .pipe(gulp.dest('./public/vendor/'));
-    // creates ./public/vendor/jquery.custom.js
-});
-
 $(document).ready( function( ) {
     $('.header').verticalMarquee( 1, 1 );
 } );
