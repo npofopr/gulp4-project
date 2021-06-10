@@ -1,1 +1,4 @@
-gulp.task('clean', function(){ return del('jqueryt/**', {force:true}); });
+// Import jQuery module (npm i jquery)
+import $ from 'jquery'
+window.jQuery = $
+window.$ = $
